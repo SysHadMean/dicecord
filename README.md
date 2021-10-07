@@ -135,6 +135,6 @@ Générateur de dés en NodeJS pour Discord
 <!-- CONTACT -->
 ## Contact
 
- [Yatoub42](https://github.com/Yatoub42)
+ [SysHadMean](https://github.com/SysHadMean)
 
 ----
