@@ -5,7 +5,9 @@ const yargs = require('yargs');
 const { hideBin } = require('yargs/helpers')
 const argv = yargs(hideBin(process.argv)).argv
 const Include = require("./include/resource.priv.json");
-const client = new Discord.Client();
+//const client = new Discord.Client();
+const { Client, Intents } = require('discord.js');
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
 const reSpec = /\W|_/g;
 const prefix = Include.prefix;
