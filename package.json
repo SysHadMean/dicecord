@@ -15,7 +15,7 @@
     "discord.js": "^13.6.0",
     "fs": "^0.0.1-security",
     "log": "^6.3.1",
-    "moment": "^2.29.2",
+    "moment": "^2.29.3",
     "yargs": "^17.4.0"
   },
   "licenses": [
