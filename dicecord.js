@@ -6,8 +6,10 @@ const { hideBin } = require('yargs/helpers')
 const argv = yargs(hideBin(process.argv)).argv
 const Include = require("./include/resource.priv.json");
 //const client = new Discord.Client();
-const { Client, Intents } = require('discord.js');
-const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+//const { Client, Intents } = require('discord.js');
+const { Client, Events, GatewayIntentBits } = require('discord.js');
+//const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
 require('better-logging')(console);
 
 const reSpec = /\W|_/g;
