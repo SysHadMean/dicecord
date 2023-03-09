@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "better-logging": "^5.0.0",
-    "better-sqlite3": "^8.1.0",
+    "better-sqlite3": "^8.2.0",
     "chance": "1.1.10",
     "discord.js": "^14.7.1",
     "fs": "^0.0.1-security",
